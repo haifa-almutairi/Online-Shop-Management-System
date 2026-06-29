@@ -74,8 +74,9 @@ Objectives
 
    
 
-### Database Implementation (SQL)
-# DDL — Table Creation
+# Database Implementation (SQL)
+### DDL — Table Creation
+
 CREATE TABLE CUSTOMER(
 CUSTOMER_ID INT NOT NULL,
 FIRST_NAME VARCHAR(255) NOT NULL,
@@ -156,7 +157,7 @@ FOREIGN KEY (CUSTOMER_ID) REFERENCES CUSTOMER(CUSTOMER_ID),
 FOREIGN KEY (PRODUCT_ID) REFERENCES PRODUCT(PRODUCT_ID)
 );
 
-# DML — Sample Data
+### DML — Sample Data
 -- Customers
 INSERT INTO CUSTOMER VALUES (202000846, 'Haifa', 'Almutairi', 'Abdullah St', 'haifa00', 'haif
 INSERT INTO CUSTOMER VALUES (202301026, 'Najla', 'Algarni', 'Khaled Road', 'najla321', 'najla
